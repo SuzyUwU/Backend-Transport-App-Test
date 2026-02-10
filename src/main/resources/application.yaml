@@ -1,3 +1,19 @@
+ml:
+  service:
+    url: http://localhost:5000
+server:
+  port: 8080
+
 spring:
   application:
     name: backend-transport
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transport
+    username: postgres
+    password: AmyIsPretty
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
