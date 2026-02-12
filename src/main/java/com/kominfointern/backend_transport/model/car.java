@@ -8,7 +8,8 @@ public class car {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public static String loremS;
-    public static int loremint;
-    public static boolean loremtorf;
+    private Long id;
+
+    private String username;
+    private String password;
 }
