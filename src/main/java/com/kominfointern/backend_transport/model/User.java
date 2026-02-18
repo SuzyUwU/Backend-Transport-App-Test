@@ -13,4 +13,8 @@ public class User {
     private String password;
     private int userid;
     private boolean islookingforcar, isoncar;
+
+    public String getUsername() {
+        return "";
+    }
 }

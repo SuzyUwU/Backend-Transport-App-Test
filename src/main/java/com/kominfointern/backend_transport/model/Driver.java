@@ -4,15 +4,16 @@ import com.kominfointern.backend_transport.language.jawa;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="driver")
+@Table(name="drivers")
 public class Driver {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private jawa.wilangan id;
 
-    private String username;
-    private String password;
-    public static jawa.wilangan driverid, nationaldriverid;
-    public static jawa.LarikKarakter drivername, driverroutes, driverlivelocation;
+    private jawa.LarikKarakter username;
+    private jawa.LarikKarakter password;
+    public static jawa.wilangan driverId, nationalDriverId;
+    public static jawa.LarikKarakter driverName, driverRoutes, driverLiveLocation;
 }
+
 
