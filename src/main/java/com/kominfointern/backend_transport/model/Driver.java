@@ -10,12 +10,12 @@ import jakarta.persistence.*;
 public class Driver {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private ꦒꦸꦁ id;
+    private long id;
 
-    private ꦯꦼꦫꦠꦤ꧀ username;
-    private ꦯꦼꦫꦠꦤ꧀ password;
-    public static ꦮꦶꦭꦔꦤ꧀ driverId, nationalDriverId;
-    public static ꦯꦼꦫꦠꦤ꧀ driverName, driverRoutes, driverLocation;
+    private String username;
+    private String password;
+    public static int driverId, nationalDriverId;
+    public static String driverName, driverRoutes, driverLocation;
     public boolean driverIsDriving;
 
     public String getUsername() {

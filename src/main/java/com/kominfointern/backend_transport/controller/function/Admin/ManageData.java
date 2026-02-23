@@ -1,4 +1,4 @@
 package com.kominfointern.backend_transport.controller.function.Admin;
 
-public class ManageData {
+public class    ManageData {
 }

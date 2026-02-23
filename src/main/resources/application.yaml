@@ -8,9 +8,9 @@ spring:
   application:
     name: backend-transport
   datasource:
-    url: jdbc:postgresql://localhost:5432/transport
+    url: jdbc:postgresql://10.139.168.97:5432/transport
     username: postgres
-    password: AmyIsPretty
+    password: Amy
     driver-class-name: org.postgresql.Driver
 
   jpa:
